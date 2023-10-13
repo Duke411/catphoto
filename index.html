@@ -1,63 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf8" lang="en"/>
-    <link rel="stylesheet" href="styles.css">
-    <title>
-      <p>Survey Form<p>
-    </title>
+    <meta charset="UTF-8" />
+    <title>Rothko Painting</title>
+    <link href="./styles.css" rel="stylesheet" />
   </head>
   <body>
-    <main>
-          <h1 id="title">freeCodeCamp Survey Form</h1>
-        <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
-        
-        <form id="survey-form">
-          <fieldset>
-            <label for="name" id="name-label">Name: <input type="text" id="name" placeholder="Enter Your Name" required/></label>
-            <label for="email" id="email-label">Email: <input type="email" id="email" placeholder="Enter Your Email" required/></label>
-            <label for="number" id="number-label">Age (optional) <input type="number" id="number" min="2" max="5" placeholder="Age"/></label>
-          </fieldset>
-          <fieldset>
-            <p>What is your favorite feature of freeCodeCamp?
-</p>
-            <select id="dropdown">
-              <option>Front-end Project</option>
-              <option>Back-end Project</option>
-              <option>Data Visualization</option>
-            </select>
-          </fieldset>
-          <fieldset>
-            <p>Would Your recommend Freecodecamp to a friend?</p>
-            <label><input type="radio" name="choose" value="maybe"/>Maybe</label>
-            <label>
-               <input type="radio"name="choose" value="yes"/>Yes
-            </label>
-            <Label>
-              <input type="radio"name="choose" value="no"/>No
-            </label>
-          </fieldset>
-          <fieldset>
-            <p>What would you like to see improved? (Check all that apply)</p>
-            <Label> <input type="checkbox" value="Front-end"/>
-            Front-end Projects
-            </label>
-            <Label> <input type="checkbox" value="Back-end"/>
-            Back-end Projects
-            </label>
-            <Label> <input type="checkbox" value="Data"/>
-            Data Visualization
-            </label>
-          </fieldset>
-          <fieldset>
-            <label>
-              <p>Any comments or suggestions?</p>
-              <textarea rows="4" cols="50"></textarea>
-            </labe>
-          </fielset>
-          <input type="submit" value="Submit" id="submit"/>
-        </form>
-    </main>
-    <footer></footer>
+    <div class="frame">
+      <div class="canvas">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </div>
+    </div>
   </body>
 </html>
